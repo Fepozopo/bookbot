@@ -7,7 +7,7 @@ def main():
     print(f"{count_words(text)} words found in the document.")
     print("", end = "\n")
     print(count_characters(text))
-    print("--- End report of books/frankenstein.txt ---")
+    print("--- End report ---")
           
 
 # Count words of text
