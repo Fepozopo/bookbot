@@ -19,4 +19,4 @@ def count_characters(text):
     sorted_characters = sorted(characters.items(), key=lambda x: x[1], reverse=True)
 
     for k in sorted_characters:
-        print(f"The '{k[0]}' character was found {k[1]} times.")
+        print(f"{k[0]}: {k[1]}")
